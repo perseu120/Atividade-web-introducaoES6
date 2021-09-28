@@ -2,7 +2,16 @@
   "name": "Atividade-web-introducaoES6",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "repository": "git@github.com:perseu120/Atividade-web-introducaoES6.git",
   "author": "Perseu <josimar.17perseu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
