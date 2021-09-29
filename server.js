@@ -19,13 +19,13 @@ app.use(express.json());
 
 
 
-app.get('/users', (req, res)=>{
-    res.json({
-        nome:'josimar',
-        empresa: 'UESB',
-        funcao: 'Estudante'
-    })
-})
+// app.get('/users', (req, res)=>{
+//     res.json({
+//         nome:'josimar',
+//         empresa: 'UESB',
+//         funcao: 'Estudante'
+//     })
+// })
 
 app.post('/users', (req, res)=>{
     res.json({
