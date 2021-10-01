@@ -9,6 +9,7 @@
   "author": "Perseu <josimar.17perseu@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.95.11",
     "sqlite": "^4.0.23",
