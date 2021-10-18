@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 const connection = require('../database/connection');
-const {routes} = require('../routes');
+const routes = require('../routes');
 
 module.exports = {
     async list(req, res){
