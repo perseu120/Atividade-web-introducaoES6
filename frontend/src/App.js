@@ -1,4 +1,5 @@
 import { useState } from "react";
+import User from './pages/Header/User'
 
 function App() {
 
@@ -9,10 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        contador:{counter}
-      </div>
-      <button onClick={increment}>ADD</button>
+      <User/>
     </div>
   );
 }
