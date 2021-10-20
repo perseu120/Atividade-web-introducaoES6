@@ -15,7 +15,6 @@ export default function User(){
     return(
         <div id="user.container">
 
-            
                 <h1>Lista de Usuários</h1>
                 <ul className="user-list">
                     {users.map(user =>(
@@ -31,7 +30,6 @@ export default function User(){
 
                             <strong>Empresa</strong>
                             <p>{user.empresa}</p>
-
                         </li>
                     ))}
                 </ul>
