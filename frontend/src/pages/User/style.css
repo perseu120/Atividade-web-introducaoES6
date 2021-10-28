@@ -31,6 +31,7 @@
     border-radius: 5px;
     border: 2px solid #da552f;
     background: none;
+    text-decoration: none;
     margin-top: 10px;
     color: #da552f;
     font-weight:bold;
@@ -51,4 +52,8 @@
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 10px;
+}
+#create-link{
+    
+    margin: 50px;
 }
