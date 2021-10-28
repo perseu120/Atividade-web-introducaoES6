@@ -1,12 +1,13 @@
 import React,{useState, useEffect} from "react";
-import api from '../../../services/api'
+import api from '../../services/api'
 import './style.css'
 
 export default function User(){
 
     const [users, setUsers] = useState([]);
     useEffect(()=>{
-        api.get('users').then(response =>{
+        api.get('/users').then(response =>{
+            console.log(response.data);
             setUsers(response.data)
         });
 
