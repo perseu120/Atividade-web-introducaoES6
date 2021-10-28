@@ -16,25 +16,32 @@ export default function User(){
     return(
         <div id="user.container">
 
-                <h1>Lista de Usuários</h1>
-                <ul className="user-list">
-                    {users.map(user =>(
-                        <li key={user.id}>
-                            <strong>Nome</strong>
-                            <p>{user.name}</p>
+            <h1>Lista de Usuários</h1>
+            <ul className="user-list">
+                {users.map(user =>(
+                   <li key={user.id}>
+                       <strong>Nome</strong>
+                       <p>{user.name}</p>
 
-                            <strong>E-mail</strong>
-                            <p>{user.email}</p>
+                        <strong>E-mail</strong>
+                        <p>{user.email}</p>
 
-                            <strong>Idade</strong>
-                            <p>{user.idade}</p>
+                        <strong>Idade</strong>
+                        <p>{user.idade}</p>
 
-                            <strong>Empresa</strong>
-                            <p>{user.empresa}</p>
-                        </li>
-                    ))}
-                </ul>
+                        <strong>Empresa</strong>
+                        <p>{user.empresa}</p>
 
+                        <div className="actions">
+                            <button className="button" type="button">Deletar</button>
+                            <button className="button" type="button">Acessar</button>
+                        </div>
+
+                    </li>
+   
+                ))}
+
+            </ul>
             
         </div>
     );
